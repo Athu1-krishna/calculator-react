@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+  border: none;
+  background: none;
+}
+.calculator{
+  width: 350px;
+  height: 600px;
+  margin: 60px auto;
+  background-color: rgb(24, 24, 24);
+
+}
+
+.keyboard{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.keyboard-row{
+  display: flex;
+  gap: 15px;
+}
+.one-block,.two-block{
+  width: 25%;
+  aspect-ratio: 1/1;
+}
